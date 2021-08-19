@@ -8,8 +8,8 @@ O CRUD deve ser realizado com Java e Spring nas versões mais atuais.
 
 Conhecimentos demonstrados:
 
-- Utilizado padrões de projeto Spring MVC e DTO.
+- Utilizado padrões de projeto Spring MVC e DTO, com o objetivo de separar as camadas da API e diminuir acoplamento entre classes.
 - Trabalhado em persistência de dados utilizando Spring Data, com banco de dados H2.
-- Feito mapeamento de chamadas HTTP de acordo com os métodos de requisição e códigos de retorno corretos.
-- Realizado tratamento e modelagem de erros utilizando @ExceptionHandler, padronizando o corpo de resposta dos mesmos de acordo com a especificação RFC 7807.
+- Feito mapeamento de chamadas HTTP de acordo com os métodos de requisição (GET, POST, PUT e DELETE) e códigos de retorno corretos.
+- Realizado tratamento e modelagem de erros/exceptions utilizando @ExceptionHandler. Também foi padronizando o corpo de resposta dos mesmos de acordo com a especificação RFC 7807.
 - Utilizado Bean Validation para validação de dados de entrada.
